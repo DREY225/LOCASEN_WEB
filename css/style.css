@@ -1,0 +1,186 @@
+/* Styles pour l'en-tête */
+header {
+    background-color: #ffffff;
+    color: #390404;
+    padding: 0%; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; /* Permettra un passage à la ligne si l'espace est insuffisant */
+}
+
+header img {
+    height: 150px; /* Ajustez la hauteur du logo */
+    width: auto;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav a {
+    color: #db7c00;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 120%;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: color 0.3s ease; /* Transition de couleur */
+}
+
+nav a:hover {
+    color: #0b0b0e; /* Couleur différente au survol */
+}
+
+/* Styles pour la bannière */
+.banner {
+    width: 100%;
+    text-align: center;
+}
+#banner {
+    width: 100%;
+    height: auto;
+}
+/* Styles pour la section */
+section {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+section div {
+    flex: 1;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+section img {
+    max-width: 100%;
+    height: auto;
+}
+/* Styles pour les paragraphes */
+section p {
+    font-size: 16px; /* Taille de police de base */
+    transition: font-size 0.3s ease; /* Transition de la taille de police */
+    text-align: justify;
+}
+section p:hover {
+    font-size: 20px; /* Taille de police agrandie au survol */
+}
+
+/* Styles pour le pied de page (footer) */
+footer {
+    background-color: #605d5d;
+    color:  #db7c00;
+    padding: 20px;
+    text-align: center;
+    font-size: 110%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+footer img {
+    margin-bottom: 10px;
+    height: 150px; /* Ajustez la hauteur du logo */
+    width: auto;  /* Ajustez la largeur du logo */
+}
+
+footer nav ul {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+footer nav li {
+    margin: 0 15px;
+}
+
+footer nav a {
+    color: #0e0d08;
+    text-decoration: none;
+    transition: color 0.3s ease; /* Transition de couleur */
+}
+
+footer nav a:hover {
+    color: #db7c00; /* Couleur différente au survol */
+
+
+}
+
+
+
+/* Styles pour la liste des chambres */
+footer ul {
+    list-style: none;
+    display: flex;
+    text-decoration: wavy;
+    justify-content: center;
+}
+
+footer li {
+    margin: 0 15px;
+}
+
+/* Styles pour les informations de contact */
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.contact-text {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact-details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.contact-details > div {
+    margin: 0 20px;
+    text-align: center;
+}
+
+.contact-details h4 {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+.contact-details p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+ 
+}
+
+.social-icon img{
+    margin: 0 10px;
+    width: auto; 
+    height: 45px;
+    padding: auto;
+}
+
+footer h2 {
+   text-transform: capitalize;
+   text-decoration: underline;
+}
